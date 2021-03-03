@@ -11,7 +11,7 @@ public class TestThread03 implements Runnable{
 
   public static void main(String[] args) {
     TestThread03 testThread03=new TestThread03();
-    new Thread(testThread03).start();;
+    new Thread(testThread03).start();
 
     for (int i = 0; i < 20; i++) {
       System.out.println("我在学习多线程--"+i);
