@@ -1,4 +1,4 @@
-package com.andy.demo01;
+package com.andy.demo;
 
 public class TestThread01 extends  Thread{
   @Override
